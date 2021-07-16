@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>testebrq_crud_user.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TesteBRQ.CrudUsers.Domain\TesteBRQ.CrudUsers.Domain.csproj" />
+    <ProjectReference Include="..\TesteBRQ.CrudUsers.Infra\TesteBRQ.CrudUsers.Infra.csproj" />
+    <ProjectReference Include="..\TesteBRQ.CrudUsers.Util\TesteBRQ.CrudUsers.Util.csproj" />
+  </ItemGroup>
+
+</Project>
